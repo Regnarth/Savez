@@ -30,7 +30,7 @@ $mail->addAddress($email);
 $mail->isHTML(true);
 
 $mail->Subject = $subject;
-$mail->Body = "Email: " . $email . "\nIme: " . $name . "\n-----------------------------" "\nPoruka:\n" . $message . "\n-----------------------------";
+$mail->Body = "Email: " . $email . "\nIme: " . $name . "\n-----------------------------" . "\nPoruka:\n" . $message . "\n-----------------------------";
 
 $mail->send();
 
