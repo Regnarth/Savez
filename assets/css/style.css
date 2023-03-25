@@ -1833,3 +1833,23 @@ section {
 .logo {
     font-family: 'NT Somic' , sans-serif;
 }
+
+.upload button[type=submit] {
+  background: #47b2e4;
+  border: 0;
+  padding: 7px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  width: 100%;
+  font-weight: bold;
+  font-size: 17px;
+
+  }
+
+.upload button[type=submit]:hover {
+  background: #209dd8;
+}
+
