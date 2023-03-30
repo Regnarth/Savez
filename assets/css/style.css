@@ -1853,3 +1853,11 @@ section {
   background: #209dd8;
 }
 
+.article {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    
+}
