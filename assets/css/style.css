@@ -301,6 +301,7 @@ h6 {
   .navbar ul {
     display: none;
   }
+
 }
 
 .navbar-mobile {
@@ -1861,4 +1862,16 @@ section {
     position: relative;
     margin-top:1%;
     margin-bottom:5%;
+}
+
+
+@media all and (max-width:3000px) {
+    #petric {
+        margin-left: 25%;
+    }
+}
+@media all and (max-width:991px) {
+    #petric {
+        margin-left: 0;
+    }
 }
