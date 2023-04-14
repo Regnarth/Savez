@@ -1855,15 +1855,22 @@ section {
 }
 
 .article {
-    width: 80%;
     height: auto;
     margin: 0 auto;
     padding: 10px;
     position: relative;
     margin-top:1%;
     margin-bottom:5%;
+    margin-left:2%;
+    margin-right:2%;
 }
-
+#article-headline{
+    text-align:center;
+    margin-top:2%;
+}
+#article-p{
+    font-family:"Jost",open-sans;
+}
 
 @media all and (max-width:3000px) {
     #petric {
