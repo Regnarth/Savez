@@ -1885,6 +1885,11 @@ section {
     }
 }
 @media all and (max-width:991px) {
+    #aktivnosti-p{
+        
+    }
+}
+@media all and (max-width:991px) {
     #petric {
         margin-left: 0;
     }
