@@ -1882,7 +1882,9 @@ section {
     width: 90%;
     margin-top: 3%;
 }
-
+#article-headline1{
+    font-family:"Jost",open-sans;
+}
 @media all and (max-width:3000px) {
     #petric {
         margin-left: 25%;
